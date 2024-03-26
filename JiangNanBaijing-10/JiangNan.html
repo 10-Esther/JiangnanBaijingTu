@@ -1,0 +1,350 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>JiangNan-Esther</title>
+<link href="css/multiColumnTemplate.css" rel="stylesheet" type="text/css">
+<link href='https://fonts.googleapis.com/css?family=Smooch' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Playfair Display' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Caveat' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Fantasy' rel='stylesheet'>
+<style>
+    .videoPopup {
+       display: none;
+       position: fixed;
+       top: 50%;
+       left: 50%;
+       transform: translate(-50%, -50%);
+       z-index: 1000;
+       background: rgba(0, 0, 0, 0.7); 
+       padding: 20px;
+       box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
+	   width: 100vw;
+    }
+    iframe {
+        width: 800px;
+        height: 450px;
+		margin: auto; 
+        display: block; 
+    }
+</style>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const videoLink = document.querySelector('.video000');
+        const videoPopup = document.getElementById('videoPopup');
+        const videoFrame = document.getElementById('videoFrame');
+
+        videoLink.addEventListener('click', function(e) {
+            e.preventDefault();
+            const videoSrc = this.getAttribute('vu');
+            videoFrame.src = videoSrc;
+            videoPopup.style.display = 'block';
+        });
+
+        videoPopup.addEventListener('click', function(e) {
+            if (e.target === this) {
+                this.style.display = 'none';
+                videoFrame.src = '';
+            }
+        });
+    });
+</script>
+</head>
+<body>
+<div class="container">
+  <header>
+    <div class="primary_header">
+	   <img id="nav_logo" src="https://wwwcdn.coconut.is/s/website/img/logo.png?1704337344">
+	   <h1 class="title"> JiangNan BaiJing Tu </h1>
+	   <img id="nav_img2" src="https://img.139y.com/m00/41/34/cea0b131fa8fb0821f0c1dfd7b8ad97f.jpg">
+	   	<nav class="secondary_header" id="menu">
+       <ul>
+        <a href="https://image.baidu.com/search/index?tn=baiduimage&ct=201326592&lm=-1&cl=2&ie=gb18030&word=%BD%AD%C4%CF%B0%D9%BE%B0%CD%BC%CD%BC%BC%AF&fr=ala&ala=1&alatpl=normal&pos=0&dyTabStr=MCwzLDEsMiw2LDQsNSw3LDgsOQ%3D%3D"><li>CLICK -> In Pictures: Enter the world of "Jiang Nan"</li></a>
+       </ul>
+       </nav>
+	   <img id="nav_img" src="https://img.139y.com/m00/41/34/cea0b131fa8fb0821f0c1dfd7b8ad97f.jpg">
+    </div>
+  </header>
+  
+ <section class="hero" id="hero">
+	<style>
+     a{
+       text-decoration: none;
+      }
+    </style>
+	<a href="https://www.bilibili.com/video/BV1SK4y1A7vm?t=5.6" class="firstphoto">
+	    <div class="Midcon">
+            <img class="mlogo" src="https://wwwcdn.coconut.is/s/jnsx/img/pc/m1-logo.png" alt="">
+            <img class="mtxt" src="https://wwwcdn.coconut.is/s/jnsx/img/pc/m1-txt.png" alt="">       
+            <img class="mslogan1" src="https://wwwcdn.coconut.is/s/jnsx/img/pc/m1-slogan1.png" alt="" /> 
+            <a class="video000" href="javascript:;" vu="https://www.bilibili.com/video/BV16d4y1z7cA?t=4.3">
+			  <i class="videop1"></i>
+			  <i class="videop2"></i>
+			</a>
+			<div class="videoPopup" id="videoPopup">
+              <iframe id="videoFrame" frameborder="0"></iframe>
+            </div>
+			
+            <a class="downbtn" href="javascript:;" data-href="https://uri6.com/tkio/aINNzaa"></a>
+            <a href="https://play.google.com/store/apps/details?id=com.cis.jiangnan.googleplay&pli=1">
+               <img class="hint" src="https://wwwcdn.coconut.is/s/jnsx/img/pc/hint.png" alt="">
+            </a>
+        </div></a>
+		
+	<img src="images\Big.jpg" alt="" width="1017" height="700" class="placeholder1"/>
+	<h3 class="hero_0">You will become a city designer</h3>
+	<h3 class="hero_0">drawing blueprints, constructing buildings</h3>
+	<h3 class="hero_0">planning layout, and operating to make money</h3>
+	<h3 class="hero_0"> ...... </h3>
+	<h3 class="hero_0">This is your paradise, the Wizard of Oz.</h3>
+	<iframe style="width: 80%; height: 550px; margin-top: 100px;" src="https://www.youtube.com/embed/-kHvEEo3X-I" title="《江南百景圖》預告片" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <h3 class="hero_header">Enjoy the daily life of the Ming Dynasty water town</h3>
+	<h3 span class="light">in the landscape painting</span></h3>
+    <p class="tagline">Yedao Games ingeniously produces the ancient business simulation game "Hundred Scenes of Jiangnan", which will take you back to the Ming Dynasty, build your own waterside paradise, and enjoy your leisure time of farming and reading in sunny weather.</p>
+ </section>
+ <section>
+	<style>
+     a{
+       text-decoration: none;
+      }
+    </style>
+	
+	<a href="https://weibo.com/6960332771/O6ejMjOvc?refer_flag=1001030103_">
+    <article class="left_article">
+	  <a href="https://weibo.com/6960332771/O6ejMjOvc?refer_flag=1001030103_">
+      <h3>"Tingting Loquat" layout 18 pictures - Yangzhou courtyard</h3>
+      <p>Aunt Qin brought a bamboo stool and sat under her loquat tree to enjoy the cool air. She waved the cattail leaf fan and said with a smile to the greedy children: "Pick it and eat it, it's very sweet." The children enjoyed picking it, and the wrinkles on Aunt Qin's face were full of satisfaction. 
+	  </p>
+    <div class="container">
+      <img class="smallpic" src="images\small1.jpg" >
+      <img class="smallpic" src="images\small2.jpg" >
+      <img class="smallpic" src="images\small3.jpg" >
+      <img class="smallpic" src="images\small4.jpg" >
+	  <img class="smallpic" src="images\small5.jpg" >
+    </div>
+    </article>
+    <img class="right_article" src="images\GLST.jpg" alt="" width="400" height="295" class="placeholder2"/>
+	</a>
+ </section>
+ 
+ <section class="secondwhole">
+	  <a href="‘We owe it to them’: Families of Israelis killed in war find new hope through sperm extraction | CNN">
+    <article class="left_article">
+      <h3>Preview of Jiangnan Hundred Scenes Spring Outing Season Series Activities</h3>
+      <p>You can participate in painting pool painting by consuming "Architecture Scrolls" and have a chance to obtain small themed buildings such as "Yaguan Theater", "Country House" and "Old Friend's Tea House".
+	  Use the "Bagua Stove", "Clothing Rack", "Ting the Wind Under the Banana" and other military-level buildings to exchange for "Bamboo Pieces". 
+	  After consuming a certain number of "Bamboo Pieces", you can redeem the dynamic buildings "White Tiger Morning Call" and "Tian Mending Stone*300" 
+	  Rewards such as "Architectural Scroll*5" will invite "Dancing Boy Streamer" to stay in Jiangnan.
+      </p>
+    </article>
+    <img class="right_article2" src="images\GLST21.jpg" alt="" width="400" height="295" class="placeholder2"/>
+	</a>
+ </section>
+ <section class="exh">
+        <img class="exhtitle" src="https://wwwcdn.coconut.is/s/jnsx/img/pc/tit3.png">
+		<div class="exh2" style="transform: scale(0.6975);">
+            <img class="L" src="https://wwwcdn.coconut.is/s/jnsx/img/pc/m3-L0.png">
+            <img class="M" src="https://wwwcdn.coconut.is/s/jnsx/img/pc/m3-M0.png">
+            <img class="R" src="https://wwwcdn.coconut.is/s/jnsx/img/pc/m3-R0.png">
+            <img class="T" src="https://wwwcdn.coconut.is/s/jnsx/img/pc/m3-T0.png">
+            <img class="img m3i1" src="https://wwwcdn.coconut.is/s/jnsx/img/pc/m3-i1.png">
+        </div>
+  </section>
+  <section>
+   <div class="row">
+     <div class="columns">
+	  <ul>
+        <div>
+        <p class="thumbnail_align"><a href="https://weibo.com/6324832080/O5ecjErcS?refer_flag=1001030103_"></p>
+        <h4>The Hundred Scenes of Jiangnan is half of the history of ancient architecture!</h4>
+        <p>1️⃣Citong Temple—Quanzhou Qingjing Temple
+2️⃣Tianqingchi—Baishuitai, Yunnan
+3️⃣ Diaojiaolou—Dai Village Diaojiaolou
+4️⃣Bailuyan Temple—Fujian Ganlu Temple
+5️⃣Yingtian Glazed Pagoda—Nanjing Dabaoen Temple
+6️⃣Songjiang Seven Buddha Stone Pagoda - Tiantai Seven Buddha Welcome Pagoda</p>
+	    </a></div>
+		
+		<div>
+        <p class="thumbnail_align"><a href="https://weibo.com/7537389106/O5QHq8qMw?refer_flag=1001030103_"></p>
+        <h4>Architectural layout sharing——Qingtuan Shop</h4>
+        <p>It’s the season of eating Qingtuan balls again! ! !
+Sharing the layout of two favorite Youth League shops.</p>
+	    </a></div>
+		
+		<div>
+        <p class="thumbnail_align"><a href="https://weibo.com/7190672265/O5pv7p50D?refer_flag=1001030103_"></p>
+        <h4>Architectural Layout Plants - Dry Vine</h4>
+        <p>How to match dead vines⁉️ Let’s see the old trees take on a new look in spring! !
+Feel the sense of fate when dead vines and wisteria meet.</p>
+	    </a></div>
+	  </ul>
+    </div>
+     <div class="columns">
+		 <p class="thumbnail_align"><a href="https://weibo.com/7800068777/O6Ec5ohTS">
+		 <img src="images/center.jpg" class="thumbnail"/></p>
+         <h4>Shangchun Mountain｜Hangzhou Prefecture Chidori Square</h4>
+         <p>Take a look at the beautiful spring scenery by the West Lake~ Spring Mountain Road, Green Spring Show, Moon Shadow Bridge, Nuanfang Pond, Last Year's Peach Blossom, Yan Ruyu, Rabbit Pounding Medicine Garden, Ancient Willows to Welcome the Spring</p></a>
+    </div>
+     <div class="columns">
+	  <ul>
+        <div>
+        <p class="thumbnail_align"><a href="https://weibo.com/7675236253/O63OzekR0"></p>
+        <h4>Version 3.1.2 invites adults to go to Jiangnan for a spring outing!</h4>
+	    </a></div>
+		
+		<div>
+        <p class="thumbnail_align"><a href="https://weibo.com/7675236253/O5AWApcv4"></p>
+        <h4>Introduction to the new building—Yuyu Nanfeng Pavilion</h4>
+	    </a></div>
+		
+		<div>
+        <p class="thumbnail_align"><a href="https://www.nytimes.com/2023/11/30/opinion/israel-gaza-war-compensation.html?searchResultPosition=7"></p>
+        <h4>Dozens are killed amid heavy bombardment in central Gaza, health officials say.</h4>
+	    </a></div>
+		
+		<div>
+        <p class="thumbnail_align"><a href="https://weibo.com/7675236253/O42jAip4w"></p>
+        <h4>The beauty and grace will leave a name for thousands of years. ​</h4>
+	    </a></div>
+		
+		<div>
+        <p class="thumbnail_align"><a href="https://weibo.com/7675236253/O3Vfu5iBN"></p>
+        <h4>Starting from March 7th, the spring jasmine series activities will begin</h4>
+	    </a></div>
+		
+		<div>
+        <p class="thumbnail_align"><a href="https://weibo.com/7675236253/O3Lrd3W3S"></p>
+        <h4>Biography of Jiangnan Characters——Wang Zhen</h4>
+	    </a></div>
+		
+		<div>
+        <p class="thumbnail_align"><a href="https://weibo.com/7675236253/O2y0PxgF1"></p>
+        <h4>Introduction to the new "Welcoming Spring" series of buildings</h4>
+	    </a></div>
+		
+        <div>
+        <p class="thumbnail_align"><a href="https://weibo.com/7675236253/O1UJmrulb"></p>
+        <h4>Introduction to the new building - Glazed Pottery Waterside Pavilion</h4>
+	    </a></div>
+	  </ul>
+    </div>
+   </div>
+  </section>
+  <section>
+    <div class="video22" style="transform: scale(0.728333);">
+            <img class="exhtitle2" src="https://wwwcdn.coconut.is/s/jnsx/img/pc/tit5.png">
+            <div class="picvideo">
+                <a class="video33" href="https://www.bilibili.com/video/BV16d4y1z7cA?share_source=copy_web">
+                    <i class="play1"></i>
+                    <i class="play2"></i>
+                </a>
+                <div class="playvideo">
+                    <a class="close" href="javascript:;">×</a>
+                </div>
+            </div>
+            <img class="imgm5i0" src="https://wwwcdn.coconut.is/s/jnsx/img/pc/m5-i0.png">
+            <img class="imgm5zhu" src="https://wwwcdn.coconut.is/s/jnsx/img/pc/m5-zhu.png">
+            <img class="imgm5ren" src="https://wwwcdn.coconut.is/s/jnsx/img/pc/m5-ren.png">
+            <img class="imgm5i1" src="https://wwwcdn.coconut.is/s/jnsx/img/pc/m5-i1.png">
+            <img class="imgm5i2" src="https://wwwcdn.coconut.is/s/jnsx/img/pc/m5-i2.png">
+            <img class="imgm5i3" src="https://wwwcdn.coconut.is/s/jnsx/img/pc/m5-i3.png">
+            <img class="imgm5i4" src="https://wwwcdn.coconut.is/s/jnsx/img/pc/m5-i4.png">
+			<img class="imgm5i5" src="https://wwwcdn.coconut.is/s/jnsx/img/m3-ren0.gif">
+			<img class="imgm5i6" src="https://wwwcdn.coconut.is/s/jnsx/img/pc/m3-L3.png">
+			<img class="imgm5i7" src="https://wwwcdn.coconut.is/s/jnsx/img/m3-ren3.gif">
+
+    </div>
+   </section>
+   <section>
+    <div class="row">
+      <div class="videos">
+        <p class="thumbnail_align"><a href="https://www.bilibili.com/video/BV11V411U7zo?t=20.7"></p>
+		<img src="https://i1.hdslb.com/bfs/archive/2dc76464723c852756dd2217ceeab401fa921115.jpg@672w_378h_1c_!web-search-common-cover.avif" class="thumbnail"/>
+        <h4>Layout by "Jiangnan Baijing Tu" × "Urban Planning Major"</h4>
+      </a></div>
+      <div class="videos">
+		 <p class="thumbnail_align"><a href="https://www.bilibili.com/video/BV12U4y1X7az?t=43.1"></p>
+		 <img src="https://i2.hdslb.com/bfs/archive/09d812c66c9acb2775bcf5dd2ea49f83682403a0.jpg@672w_378h_1c_!web-search-common-cover.avif" class="thumbnail" />
+         <h4>Culture succeeds and culture fails - history of development</h4>
+      </a></div> 
+	  <div class="videos">
+        <p class="thumbnail_align"><a href="https://www.bilibili.com/video/BV1QD4y1S7fb?t=3.4"></p>
+		<img src="https://i0.hdslb.com/bfs/archive/31667237e5bbc5e588a1024cbdf9d3d6ed96b8d5.jpg@672w_378h_1c_!web-search-common-cover.avif" class="thumbnail" />
+		<h4>Tips that novices must know</h4>
+	  </a></div>
+	  <div class="videos">
+        <p class="thumbnail_align"><a href="https://www.bilibili.com/video/BV1uK4y1d7LC?t=4.5"></p>
+		<img src="https://i2.hdslb.com/bfs/archive/11f7675ee8c447fb145ba2f5fc011852b77ef4ed.jpg@672w_378h_1c_!web-search-common-cover.avif" class="thumbnail"/>
+        <h4>How does "idle person" play</h4>
+      </a></div>
+	  <div class="videos">
+        <p class="thumbnail_align"><a href="https://www.bilibili.com/video/BV1T44y167Bq?t=4.1"></p>
+		<img src="https://i1.hdslb.com/bfs/archive/d93bbee554398b5d0add769bd95a5aebdcd56e46.jpg@672w_378h_1c_!web-search-common-cover.avif" class="thumbnail"/>
+        <h4>Square courtyard layout</h4>
+      </a></div>
+	  <div class="videos">
+        <p class="thumbnail_align"><a href="https://www.bilibili.com/video/BV17a4y1j7hT?t=7.6"></p>
+		<img src="https://i1.hdslb.com/bfs/archive/c5e6fe6a8c686f253e58e26663b6efe013ddd30b.jpg@672w_378h_1c_!web-search-common-cover.avif" class="thumbnail"/>
+        <h4>Sharing of illegal construction/layout ideas</h4>
+      </a></div>
+	</div>
+  </section>
+  
+
+ <section>
+	<div class="left_article">
+		<h3>Learn More News</h3>
+		<ul>
+			<li>
+				<a href="https://www.thepaper.cn/newsDetail_forward_8416430">
+				<em></em>
+				<p>《江南百景图》，凭什么悄悄占领了朋友圈</p></a>
+			</li>
+			<li>
+				<a href="https://www.thepaper.cn/newsDetail_forward_25859552">
+				<em></em>
+				<p>朵云轩展江南百景图：呈现明代沈周扇面、木版水印</p></a>
+			</li>
+			<li>
+				<a href="https://thepaper.cn/newsDetail_forward_24377176">
+				<em></em>
+				<p>Z世代唱享中国·江南文化｜登高梅岭春深小金山</p></a>
+			</li>
+			<li>
+				<a href="https://www.thepaper.cn/newsDetail_forward_14151493">
+				<em></em>
+				<p>手游《江南百景图》将岳飞设计成投降者形象，制作方再致歉</p></a>
+			</li>
+			<li>
+				<a href="https://www.thepaper.cn/newsDetail_forward_14061284">
+				<em></em>
+				<p>手游《江南百景图》魔改历史，网友质疑侮辱历史英雄</p></a>
+			</li>
+			<li>
+				<a href="https://www.thepaper.cn/newsDetail_forward_10357599">
+				<em></em>
+				<p>上海国际游戏产业交易商洽会召开，共绘游戏出海新蓝图</p></a>
+			</li>		
+		</ul>
+	</div>
+    <aside class="right_article"><img src="images/last.jpg"  width="100%" height="100%"/> </aside>
+ </section>
+</div>
+  
+<footer class="secondary_header footer">
+    <div class="copyright">&copy;2024 - <strong>Esther_Wyl</strong></div>
+</footer>
+
+<script>
+    document.querySelector("body hero div a.video000").addEventListener('click', function() {
+        // 获取视频链接
+        var videoLink = document.querySelector("a.video000").getAttribute("vu");
+        // 在新标签页中打开视频链接
+        window.open(videoLink, '_blank');
+    });
+</script>
+</body>
+</html>
